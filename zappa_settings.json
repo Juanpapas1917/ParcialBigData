@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "app_function": "webscrappy.mainScrappy.download_pages",
+    "aws_region": "us-east-1",
+    "profile_name": "default",
+    "project_name": "webscrappy-batch",
+    "runtime": "python3.10",
+    "s3_bucket": "zappa-deploy-bucket-xxx",
+    "manage_roles": false,
+    "role_name": "LabRole", 
+    "timeout_seconds": 300,
+    "memory_size": 1024,
+    "apigateway_enabled": false
+  }
+}
+
